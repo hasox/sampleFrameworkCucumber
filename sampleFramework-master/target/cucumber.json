@@ -1,0 +1,212 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 7,
+        "name": "check top bar card Category",
+        "description": "",
+        "id": "mainpage;check-top-bar-card-category",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6238482400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user is on the main page",
+            "match": {
+              "location": "MainPageStepDefs.the_user_is_on_the_main_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 209264700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user hover over the card Category",
+            "match": {
+              "location": "MainPageStepDefs.the_user_hover_over_the_card_Category()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 56802900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user should be able to see pulldown menu",
+            "match": {
+              "location": "MainPageStepDefs.the_user_should_be_able_to_see_pulldown_menu()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "check top bar card Category links",
+        "description": "",
+        "id": "mainpage;check-top-bar-card-category-links",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 609047200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user is on the main page",
+            "match": {
+              "location": "MainPageStepDefs.the_user_is_on_the_main_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 135156600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the user hover over the card Category",
+            "match": {
+              "location": "MainPageStepDefs.the_user_hover_over_the_card_Category()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1455264600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the user should be able click Best Credit cards link",
+            "match": {
+              "location": "MainPageStepDefs.the_user_should_see_Best_Credit_cards_link()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "To check title of the web page",
+        "description": "",
+        "id": "mainpage;to-check-title-of-the-web-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 617683000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the user is on the main page",
+            "match": {
+              "location": "MainPageStepDefs.the_user_is_on_the_main_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: title of the page is not equal to expected value expected:\u003cC[redit Cards - Compare Credit Card Offers] at CreditCards.com\u003e but was:\u003cC[ompare Credit Cards \u0026 Apply Online] at CreditCards.com\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat com.sampleFramework.step_definitions.MainPageStepDefs.title_should_be_equal_to_Credit_Cards_Compare_Credit_Card_Offers_at_CreditCards_com(MainPageStepDefs.java:67)\r\n\tat ✽.Title should be equal to Credit Cards - Compare Credit Card Offers at CreditCards.com(src/test/resources/features/mainPage.feature:21)\r\n",
+              "duration": 10295500,
+              "status": "failed"
+            },
+            "line": 21,
+            "name": "Title should be equal to Credit Cards - Compare Credit Card Offers at CreditCards.com",
+            "match": {
+              "location": "MainPageStepDefs.title_should_be_equal_to_Credit_Cards_Compare_Credit_Card_Offers_at_CreditCards_com()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "To check url of the web page",
+        "description": "",
+        "id": "mainpage;to-check-url-of-the-web-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 518212300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the user is on the main page",
+            "match": {
+              "location": "MainPageStepDefs.the_user_is_on_the_main_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2320270700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "url should be equal to https://www.creditcards.com/",
+            "match": {
+              "location": "MainPageStepDefs.url_should_be_equal_to_https_www_creditcards_com()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "mainPage",
+    "description": "\tAs a user, when I hover over the top bar,\n\tI should be able to see pulldown menu on the main page top bar ",
+    "id": "mainpage",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/mainPage.feature",
+    "tags": [
+      {
+        "name": "@test",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
